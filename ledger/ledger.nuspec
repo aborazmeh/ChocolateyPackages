@@ -5,6 +5,7 @@
     <version>3.1.1</version>
     <title>ledger</title>
     <authors>John Wiegley</authors>
+    <packageSourceUrl>https://github.com/aborazmeh/ChocolateyPackages/</packageSourceUrl>
     <owners>Abdurrahman Aborazmeh</owners>
     <licenseUrl>https://www.gnu.org/licenses/bsd.html</licenseUrl>
     <projectUrl>http://ledger-cli.org/</projectUrl>
