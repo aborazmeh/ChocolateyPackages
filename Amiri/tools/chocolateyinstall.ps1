@@ -6,9 +6,6 @@ function Get-CurrentDirectory
   [IO.Path]::GetDirectoryName((Get-Content function:$thisName).File)
 }
 
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/alif-type/amiri/releases/download/0.109/amiri-0.109.zip'
-
 $fontHelpersPath = (Join-Path (Get-CurrentDirectory) 'FontHelpers.ps1')
 . $fontHelpersPath
 
@@ -16,7 +13,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = Join-Path $Env:Temp $packageName
   fileType      = 'zip'
-  url           = $url
+  url           = 'https://github.com/alif-type/amiri/releases/download/0.109/amiri-0.109.zip'
   checksum      = '97ee6e40d87f4b31de15d9a93bb30bf27bf308f0814f4ee9c47365b027402ad6'
   checksumType  = 'sha256'
 }
