@@ -8,7 +8,10 @@
     <packageSourceUrl>https://github.com/aborazmeh/ChocolateyPackages/</packageSourceUrl>
     <owners>Abdurrahman Aborazmeh</owners>
     <licenseUrl>http://scripts.sil.org/OFL</licenseUrl>
-    <projectUrl>https://github.com/alif-type/amiri/</projectUrl>
+    <projectUrl>http://www.amirifont.org/</projectUrl>
+    <projectSourceUrl>https://github.com/alif-type/amiri/</projectSourceUrl>
+    <docsUrl>https://github.com/alif-type/amiri/raw/master/documentation/documentation-arabic.pdf</docsUrl>
+    <bugTrackerUrl>https://github.com/alif-type/amiri/issues</bugTrackerUrl>
     <iconUrl>http://www.amirifont.org/banner.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Amiri is a classical Arabic typeface in Naskh style for typesetting books and
