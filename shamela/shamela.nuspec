@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>shamela</id>
+    <version>3.64</version>
+    <packageSourceUrl>https://github.com/aborazmeh/ChocolateyPackages/</packageSourceUrl>
+    <owners>Abdurrahman Aborazmeh</owners>
+    <title>shamela</title>
+    <authors>Nafe AlMasri</authors>
+    <projectUrl>http://shamela.ws/</projectUrl>
+    <iconUrl>http://shamela.ws/files/img/front/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://shamela.ws/help.php</docsUrl>
+    <tags>shamela arabic islamic ebook book library</tags>
+    <summary>An Arabic library application to host, read and edit books</summary>
+    <description>A freeware program aims to provide what a student of classic Arabic arts needs.
+    
+    It provides the ability to import various documents, to export books, to search in them,
+    and to read in many books which can be downloaded via the auto-update feature.</description>
+    <releaseNotes>http://shamela.ws/index.php/page/updates</releaseNotes>
+  </metadata>
+</package>
