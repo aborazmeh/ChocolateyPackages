@@ -12,6 +12,6 @@ $packageArgs = @{
 
 $packageName = $packageArgs.packageName
 
-Get-ChocolateyWebFile -PackageName $packageArgs.packageName -FileFullPath "$Env:Temp\$packageName$Env:ChocolateyPackageVersion.rar" -Url $packageArgs.url -ChecksumType $packageArgs.checksumType -Checksum $packageArgs.checksum
+Get-ChocolateyWebFile -PackageName $packageArgs.packageName -FileFullPath "$Env:Temp\$packageName$Env:ChocolateyPackageVersion.rar" -Url $packageArgs.url -Checksum $packageArgs.checksum -ChecksumType $packageArgs.checksumType
 
-Get-ChocolateyUnzip -PackageName $packageArgs.packageName -FileFullPath "$Env:Temp\shamela$Env:ChocolateyPackageVersion.rar" -Destination $Env:ChocolateyPackageFolder
+Get-ChocolateyUnzip -FileFullPath "$Env:Temp\shamela$Env:ChocolateyPackageVersion.rar" -Destination $Env:ChocolateyPackageFolder -PackageName $packageArgs.packageName
