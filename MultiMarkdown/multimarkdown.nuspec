@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>multimarkdown</id>
+    <version>6.3.0</version>
+    <packageSourceUrl>https://github.com/aborazmeh/ChocolateyPackages/</packageSourceUrl>
+    <owners>Abdurrahman Aborazmeh</owners>
+    <title>MultiMarkdown</title>
+    <authors>Fletcher Penney</authors>
+    <projectUrl>http://fletcherpenney.net/multimarkdown/</projectUrl>
+    <copyright>Copyright (c) 2013-2018, Fletcher Penney</copyright>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/fletcher/MultiMarkdown-6</projectSourceUrl>
+    <docsUrl>http://fletcherpenney.net/multimarkdown/help/</docsUrl>
+    <mailingListUrl>https://groups.google.com/d/forum/multimarkdown</mailingListUrl>
+    <bugTrackerUrl>https://github.com/fletcher/MultiMarkdown-6/issues</bugTrackerUrl>
+    <tags>multimarkdown markdown latex pdf epub html</tags>
+    <summary>A tool to help turn minimally marked-up plain text into well formatted documents</summary>
+    <description>MultiMarkdown, or MMD, is a tool to help turn minimally marked-up plain text
+into well formatted documents, including HTML, PDF (by way of [LaTeX](http://en.wikipedia.org/wiki/LaTeX)),
+[OPML](http://en.wikipedia.org/wiki/OPML), or OpenDocument (specifically, Flat [OpenDocument](http://en.wikipedia.org/wiki/OpenDocument) or ‘.fodt’, which
+can in turn be converted into [RTF](http://en.wikipedia.org/wiki/Rich_Text_Format), Microsoft Word, or virtually any other
+word-processing format).
+
+MMD is a superset of the [Markdown](http://daringfireball.net/projects/markdown/) syntax, originally created by John Gruber.
+It adds multiple syntax features (tables, footnotes, and citations, to name a
+few), in addition to the various output formats listed above (Markdown only
+creates HTML). Additionally, it builds in “smart” typography for various
+languages (proper left- and right-sided quotes, for example).</description>
+    <releaseNotes>https://github.com/fletcher/MultiMarkdown-6/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
