@@ -51,7 +51,15 @@
 29. Logging
 30. Logs Manager
 31. DCC Transfers
-32. Hotkeys For All Tastes</description>
+32. Hotkeys For All Tastes
+
+[**Virus Disclaimer**](https://dev.adiirc.com/projects/adiirc/wiki/downloads)
+
+Antivirus flags AdiIRC as having a virus or trojan.
+
+AdiIRC seems to generate a lot of false positives in some antivirus programs, if possible, please submit the file to your antivirus vendor for false positive analyzes, so the vendor can improve detection, and/or white-list AdiIRC.exe.
+
+If you are unsure, the false positives seems to be resolved after a few weeks, you can try update again then. Also be free to scan AdiIRC executable on VirusTotal, there are over 50 virus scanners, usually a tiny amount of engines are flagging it, a strong indication it is a false-positive.</description>
     <releaseNotes>https://adiirc.com/download.php?v=3.1</releaseNotes>
   </metadata>
   <files>
