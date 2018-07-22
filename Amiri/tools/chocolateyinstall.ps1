@@ -13,8 +13,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = Join-Path $Env:Temp $packageName
   fileType      = 'zip'
-  url           = 'https://github.com/alif-type/amiri/releases/download/0.109/amiri-0.109.zip'
-  checksum      = '97ee6e40d87f4b31de15d9a93bb30bf27bf308f0814f4ee9c47365b027402ad6'
+  url           = 'https://github.com/alif-type/amiri/releases/download/0.111/Amiri-0.111.zip'
+  checksum      = '1fbfccced6348b5db2c1c21d5b319cd488e14d055702fa817a0f6cb83d882166'
   checksumType  = 'sha256'
 }
 
