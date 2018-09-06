@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cerebro</id>
+    <version>0.3.2</version>
+    <packageSourceUrl>https://github.com/aborazmeh/ChocolateyPackages/</packageSourceUrl>
+    <owners>Abdurrahman Aborazmeh</owners>
+    <title>Cerebro</title>
+    <authors>Alexandr Subbotin</authors>
+    <projectUrl>https://cerebroapp.com/</projectUrl>
+    <iconUrl>https://cerebroapp.com/images/icon.png</iconUrl>
+    <copyright>Copyright © 2016-2018 Alexandr Subbotin</copyright>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/KELiON/cerebro</projectSourceUrl>
+    <docsUrl>https://github.com/KELiON/cerebro/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/KELiON/cerebro/issues</bugTrackerUrl>
+    <tags>cerebro productivity launcher</tags>
+    <summary>Cerebro is an open source and free electron-based productivity software alternative to Alfred and Spotlight.</summary>
+    <description>Cerebro is an productivity booster with a brain...
+
+it is an open source and free electron-based productivity software alternative to Alfred and Spotlight.
+
+## Features ##
+
+### Search everything ###
+
+![search](https://cerebroapp.com/images/search.png)
+
+Search everything in few clicks. On your machine or in the Internet.
+
+Interact with everything: open file in default program or reveal in finder, copy contact details to clipboard, see google suggestions.
+
+### See everything ###
+
+![see-everything](https://cerebroapp.com/images/previews.png)
+
+Maps, translations, files. Now you don’t have to open another application to see what you need.
+
+Everything is in one place.
+
+### Do everything ###
+
+![plugins](https://cerebroapp.com/images/plugins.png)
+
+Using included plugin manager you always can find and use what you want.
+
+There is no plugin that you are looking for? Use simple, but powerful [API](https://github.com/KELiON/cerebro/blob/master/docs/plugins.md) to build your own plugins and share them with community.
+
+### Open source ###
+
+![open-source](https://cerebroapp.com/images/open-source.png)
+
+Cerebro is free and open-source.
+
+Be a part of community: contribute your
+improvements, suggestions and fixes.</description>
+    <releaseNotes>https://github.com/KELiON/cerebro/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
