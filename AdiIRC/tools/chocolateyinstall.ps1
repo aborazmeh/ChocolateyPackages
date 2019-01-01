@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://adiirc.com/AdiIRC.3.1.exe'
-$url64      = 'https://adiirc.com/AdiIRC64.3.1.exe'
+$url        = 'https://www.adiirc.com/AdiIRC.3.2.exe'
+$url64      = 'https://www.adiirc.com/AdiIRC64.3.2.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,9 +10,9 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
   softwareName  = 'AdiIRC*'
-  checksum      = '1264F077E15779D3F05AADA49A6A3F9A47A2AED618A74FA4C64B33D65267EA56'
+  checksum      = '715EEE29A12DD59B33B55D3AE8C62738BB2270A7433E1AB0F9D5A61BA9B10471'
   checksumType  = 'sha256'
-  checksum64    = '1B83BAD088B4AA1AAA5284B2F4ADE5C77883598947D3F4F2FF8C5E11103D01E5'
+  checksum64    = 'B92344F09B1FD8706CCD5392877841DF95CD861138C40749B70E89323EACC999'
   checksumType64= 'sha256'
 
   validExitCodes= @(1223, 0, 3010, 1641)

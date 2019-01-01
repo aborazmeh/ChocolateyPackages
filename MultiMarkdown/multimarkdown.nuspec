@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>multimarkdown</id>
-    <version>6.3.2</version>
+    <version>6.4.0</version>
     <packageSourceUrl>https://github.com/aborazmeh/ChocolateyPackages/</packageSourceUrl>
     <owners>Abdurrahman Aborazmeh</owners>
     <title>MultiMarkdown</title>
